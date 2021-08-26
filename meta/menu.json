@@ -204,13 +204,13 @@
         {
           "id": "implemented",
           "name": "Implemented",
-          "href": "http://mips.makerdao.com/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented"
         },
         {
           "id": "pending",
           "name": "Pending Implementation",
-          "href": "http://mips.makerdao.com/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
           "custom_view_name": "Pending Implementation"
         }
       ]
@@ -218,7 +218,7 @@
     {
       "id": "process",
       "name": "Processes",
-      "href": "http://mips.makerdao.com/mips/list?&search=$%20%23process",
+      "href": "http://159.203.86.45:8000/mips/list?&search=$%20%23process",
       "custom_view_name": "Processes"
     },
     {
