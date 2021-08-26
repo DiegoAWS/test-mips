@@ -12,12 +12,12 @@
         {
           "id": "mip0",
           "name": "The MIPs Framework",
-          "href": "https://mips.makerdao.com/mips/details/MIP0"
+          "href": "http://159.203.86.45:8000/mips/details/MIP0"
         },
         {
           "id": "mip3",
           "name": "Governance Cycle",
-          "href": "https://mips.makerdao.com/mips/details/MIP3"
+          "href": "http://159.203.86.45:8000/mips/details/MIP3"
         }
       ]
     },
