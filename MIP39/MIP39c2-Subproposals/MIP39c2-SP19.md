@@ -1,4 +1,4 @@
-# MIP39c2-SP19: Adding the StarkNet Engineering Core Unit (SNE-001)
+# MIP39c2-SP19: Adding the StarkNet Engineering Core Unit, SNE-001
 
 ## Preamble
 
@@ -15,6 +15,8 @@ Date Ratified: NA
 ## Sentence Summary
 
 In a volatile, high gas cost environment, DeFi protocols are attempting to build bridges to L2 protocols to access liquidity and remain competitive. This proposal is a plan to build a DAI bridge over Starknet within 3 months (phase I) with a total budget of $420,750, of which $210,325 is requested to Maker in this proposal. A detailed plan and budget to enable minting DAI (phase II) will be the subject of another proposal and governance vote. This project opens the door to leveraging StarkNet to keep the Maker protocol attractive to users in the ZK-rollup, Layer 2 domain.
+
+[This document](https://docs.google.com/document/d/1eh5dBY2NL6cUqgS8C_WvaKmkL4QxsrM7us7WBOLahr8/edit#heading=h.aa74e944zmag) assesses the risk in onboarding StarkNet’s L2 solution using [this proposed L2 Risk Framework](https://forum.makerdao.com/t/a-proposed-l2-risk-framework/9518).
 
 ## Motivation
 
@@ -123,7 +125,7 @@ The scope for the budget in this proposal is only for phase I as described below
 
 **Phase II ambition: Minting on Starknet**
 
-Phase II budget is not in the scope of this proposal. Phase II will be focused on enabling minting DAI on Starknet. In order to converge to a consensus on the design for phase II, the community and CUs will be involved in discussions on design principles (inspired from the [risk framework](https://docs.google.com/document/d/1agYZTjGajF8QKor09ro4VzQQGIR4Pp5KZsMP16ocVNU/edit#heading=h.5v5lkndh2uwb)) as well as concrete design alternatives. The output of those discussions will be a phase II proposal. 
+Phase II budget is not in the scope of this proposal. Phase II will be focused on enabling minting DAI on Starknet. In order to converge to a consensus on the design for phase II, the community and CUs will be involved in discussions on design principles (inspired by the [risk framework](https://docs.google.com/document/d/1agYZTjGajF8QKor09ro4VzQQGIR4Pp5KZsMP16ocVNU/edit#heading=h.5v5lkndh2uwb)) as well as concrete design alternatives. The output of those discussions will be a phase II proposal. 
 
 
 ## Community involvement
