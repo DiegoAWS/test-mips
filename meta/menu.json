@@ -202,42 +202,42 @@
       "name": "Technical",
       "children": [
         {
-          "id": "implemented (NO orderBy)",
-          "name": "Implemented",
+          "id": "implemented21d",
+          "name": "Implemented (NO orderBy)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented"
         },
         {
-          "id": "implemented (orderBy:'')",
-          "name": "Implemented",
+          "id": "implemented22d",
+          "name": "Implemented (orderBy:'')",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented",
           "orderBy": ""
         },
         {
-          "id": "implemented (orderBy:Number)",
-          "name": "Implemented",
+          "id": "implemented23d",
+          "name": "Implemented (orderBy:Number)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented",
           "orderBy": "Number"
         },
         {
-          "id": "implemented (orderBy:Title)",
-          "name": "Implemented",
+          "id": "implemented24d",
+          "name": "Implemented (orderBy:Title)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented",
           "orderBy": "Title"
         },
         {
-          "id": "implemented (orderBy:Summary)",
-          "name": "Implemented",
+          "id": "implemented25d",
+          "name": "Implemented (orderBy:Summary)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented",
           "orderBy": "Summary"
         },
         {
-          "id": "implemented (orderBy:Status)",
-          "name": "Implemented",
+          "id": "implemented26d",
+          "name": "Implemented (orderBy:Status)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented",
           "orderBy": "Status"
