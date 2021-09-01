@@ -202,16 +202,59 @@
       "name": "Technical",
       "children": [
         {
-          "id": "implemented",
+          "id": "implemented (NO orderBy)",
           "name": "Implemented",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented"
         },
         {
+          "id": "implemented (orderBy:'')",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": ""
+        },
+        {
+          "id": "implemented (orderBy:Number)",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": "Number"
+        },
+        {
+          "id": "implemented (orderBy:Title)",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": "Title"
+        },
+        {
+          "id": "implemented (orderBy:Summary)",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": "Summary"
+        },
+        {
+          "id": "implemented (orderBy:Status)",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": "Status"
+        },
+        {
+          "id": "implemented (orderBy:MostUsed)",
+          "name": "Implemented",
+          "href": "http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented",
+          "orderBy": "MostUsed"
+        },
+        {
           "id": "pending",
-          "name": "Pending Implementation",
+          "name": "Pending Implementation (orderBy:Title)",
           "href": "http://159.203.86.45:8000/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
-          "custom_view_name": "Pending Implementation"
+          "custom_view_name": "Pending Implementation",
+          "orderBy": "Title"
         }
       ]
     },
@@ -226,24 +269,68 @@
       "name": "Technical 2",
       "children": [
         {
-          "id": "implemented2",
-          "name": "Implemented 2",
+          "id": "implemented21",
+          "name": "Implemented (NO orderBy)",
           "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented 2"
         },
         {
+          "id": "implemented22",
+          "name": "Implemented (orderBy:'')",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": ""
+        },
+        {
+          "id": "implemented23",
+          "name": "Implemented (orderBy:Number)",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": "Number"
+        },
+        {
+          "id": "implemented24",
+          "name": "Implemented (orderBy:Title)",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": "Title"
+        },
+        {
+          "id": "implemented25",
+          "name": "Implemented (orderBy:Summary)",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": "Summary"
+        },
+        {
+          "id": "implemented26",
+          "name": "Implemented (orderBy:Status)",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": "Status"
+        },
+        {
+          "id": "implemented27",
+          "name": "Implemented (orderBy:MostUsed)",
+          "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+          "custom_view_name": "Implemented 2",
+          "orderBy": "MostUsed"
+        },
+        {
           "id": "pending2",
-          "name": "Pending Implementation 2",
+          "name": "Pending Implementation (orderBy:Title)",
           "href": "http://localhost:4200/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
-          "custom_view_name": "Pending Implementation 2"
+          "custom_view_name": "Pending Implementation 2",
+          "orderBy": "Title"
         }
       ]
     },
     {
       "id": "process2",
-      "name": "Processes 2",
+      "name": "Processes (orderBy:Title)",
       "href": "http://localhost:4200/mips/list?&search=$%20%23process",
-      "custom_view_name": "Processes 2"
+      "custom_view_name": "Processes 2",
+      "orderBy": "Title"
     },
     {
       "id": "contact",
