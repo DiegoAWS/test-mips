@@ -310,7 +310,7 @@
           "orderBy": "Status"
         },
         {
-          "id": "implemented27",
+          "id": "implemented28",
           "name": "Implemented (orderBy:MostUsed)",
           "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
           "custom_view_name": "Implemented 2",
